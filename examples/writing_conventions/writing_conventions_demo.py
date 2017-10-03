@@ -19,3 +19,7 @@ def some_method_name():
 
 # ? camelCase ?
 camelCase = 'ops not here.'
+
+
+# Bottom of the file.
+# Link to PEP 8 style guide -> https://www.python.org/dev/peps/pep-0008/#type-variable-names
