@@ -22,4 +22,4 @@ camelCase = 'ERROR 404: camelCase not here.'
 
 
 # Bottom of the file.
-# Link to PEP 8 style guide -> https://www.python.org/dev/peps/pep-0008/#type-variable-names
+# Link to PEP 8 style guide -> https://www.python.org/dev/peps
