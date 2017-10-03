@@ -18,7 +18,7 @@ def some_method_name():
 
 
 # ? camelCase ?
-camelCase = 'ops not here.'
+camelCase = 'ERROR 404: camelCase not here.'
 
 
 # Bottom of the file.
