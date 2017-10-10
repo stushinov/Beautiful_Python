@@ -26,3 +26,22 @@
 
 # How does one print the elemnts of a list using a for-loop.
 names = ['Jhonatan', 'Marrie', 'Steve', 'Ashley']
+
+# The wrong way
+for i in range(len(names)):
+    print(names[i])
+
+# This is the way most of python newbies will do it.
+# It does seem logical to take the length of a list and do iterations matching its length
+# taking and printing the i-th element of the list.
+
+
+
+# The correct way
+for name in names:
+    print(name)
+
+
+# A thing one might not realize when they just get into python, is that
+# although it is called a 'for' loop in python the 'for' loop is more like a 'for each' loop
+# respectively to languages such as Java, C#, JS.
