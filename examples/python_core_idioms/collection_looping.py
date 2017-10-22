@@ -24,7 +24,10 @@
 # Let me show you what I mean:
 
 
-# How does one print the elemnts of a list using a for-loop.
+# ------------------------------------------------------------------------------ #
+
+
+# How does one print the elements of a list using a for-loop.
 names = ['Jhonatan', 'Marrie', 'Steve', 'Ashley']
 
 # The wrong way
@@ -36,7 +39,6 @@ for i in range(len(names)):
 # taking and printing the i-th element of the list.
 
 
-
 # The correct way
 for name in names:
     print(name)
@@ -45,3 +47,35 @@ for name in names:
 # A thing one might not realize when they just get into python, is that
 # although it is called a 'for' loop in python the 'for' loop is more like a 'for each' loop
 # respectively to languages such as Java, C#, JS.
+
+
+# ------------------------------------------------------------------------------ #
+
+
+# Okay we get how to print the elements of a list but what happens if one wants to
+# print both the element and its index, we must iterate over the list using its
+# length in order to obtain each element and its index right ?!
+
+
+# The wrong way
+for i in range(len(names)):
+    print(i, ' --> ', names[i])
+
+
+# Nope, by looking into python's built-in functions we will find one whose name is
+# enumerate(). What enumerate() does is to return
+# a tuple containing the elements' index and the element itself.
+# Let's see it in an example.
+
+
+# The right way
+for i, name in enumerate(names):
+    print(i, ' --> ', name)
+
+
+# Isn't the code more readable now ?
+
+# ------------------------------------------------------------------------------ #
+
+
+
